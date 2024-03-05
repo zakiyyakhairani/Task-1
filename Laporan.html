@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Praktikum</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+        .aligned-colon {
+            display: inline-block;
+            width: 1em; /* optional: adjust width based on your preference */
+            margin-left: 0.5em;
+        }
+
+        body {
+            background: linear-gradient(to bottom right, #3d0c56, rgb(192, 154, 186));
+        }
+
+        img{
+            max-width: 700px;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Bebas Neue';
+            color: aliceblue;
+            text-transform: uppercase;
+            animation: scale 2s infinite;
+        }
+
+        h2{
+            font-family: 'Bebas Neue';
+        }
+
+        h3 {
+            font-family: 'Bebas Neue';
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        @keyframes scale {
+            0%, 100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <section> 
+        <div class="container mt-5" style="color: aliceblue;">
+            <h1>Laporan Praktikum Pemrograman Visual</h1>
+            <hr>
+            <div class="row mt-3">
+                <div class="col-2">Nama</div>
+                <div class="col-1">:</div>
+                <div class="col-8">Zakiyya Khairani</div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2">Kelas</div>
+                <div class="col-1">:</div>
+                <div class="col-3">2021 A</div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2">Matakuliah</div>
+                <div class="col-1">:</div>
+                <div class="col-3">Pemrograman Visual</div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2">Laporan ke-</div>
+                <div class="col-1">:</div>
+                <div class="col-3">1</div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2">Program Studi</div>
+                <div class="col-1">:</div>
+                <div class="col-3">Pendidikan Komputer</div>
+            </div>
+            <hr>
+        </div>  
+    </section>
+    <!-- /Header -->
+
+    <!-- Isi Laporan -->
+
+        <div class="container mt-5">
+            <h1 class="text-center">Isi Laporan</h1>
+            <hr>
+        </div>
+
+        <!-- contoh section No. 1 Clone Repositori -->
+        <section class="task-section">
+            <div class="container mt-5">
+                <div class="card p-5 mb-5">
+                    <h2>1. Clone Repositori</h2>
+                    <img src="Clone-Github.png" alt="" class="ml-4">
+                    <hr>
+                    <div class="output ml-4 ">
+                        <h3>output :</h3>
+                        <img src="Output-Clone.png" alt="">
+                        <div class="title-section mt-3 p-3" style="background-color: rgb(166, 139, 162); border-radius:0.25rem;">
+                            <p style="color:rgb(0, 0, 0);">Penjelasan nomor 1, <br>Clone repositori dengan menggunakan perintah git clone untuk mengkloning repositori dari URL yang disediakan (URL: https://github.com/Elxixau/Visual_Programming_Task1.git). Tunggu proses cloning selesai. Setelah menjalankan perintah git clone, Git akan mulai mengunduh repositori ke dalam folder "Pemrograman Visual Task1". Tunggu hingga proses selesai. Masuk ke dalam folder cloned repositori. Setelah proses cloning selesai, masuk ke dalam folder yang baru saja dibuat, yaitu "weekly_task1". Selanjutnya memindahkan isi folder ke dalam folder baru ke dalam folder dengan nama "Zakiyya Khairani_2105176020". Proses telah selesai. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- No. 2 Mengerjakan Task.py-->
+        <section class="task-section">
+            <div class="container mt-5">
+                <div class="card p-5 mb-5">
+                    <h2>2. Mengerjakan Task.py</h2>
+                    <img src="Task-1.png" alt="" class="ml-4">
+                    <hr>
+                    <div class="output ml-4 ">
+                        <h3>output :</h3>
+                        <img src="Output-Task 1.png" alt="">
+                        <div class="title-section mt-3 p-3" style="background-color: rgb(166, 139, 162); border-radius:0.25rem;">
+                            <p style="color:rgb(0, 0, 0);">
+                                Penjelasan nomor 2, <br>Setiap objek dari kelas Mahasiswa akan memiliki atribut-atribut seperti nama, kelas, prodi, fakultas, tempat_tinggal, dan asal. __init__(self, nama, kelas, prodi, fakultas, tempat_tinggal, asal): Metode konstruktor yang digunakan untuk inisialisasi objek Mahasiswa dengan nilai-nilai awal yang diterima sebagai parameter.
+                                self.nama, self.kelas, self.prodi, self.fakultas, self.tempat_tinggal, self.asal: Atribut-atribut dari objek Mahasiswa yang akan diinisialisasi dengan nilai-nilai yang diterima dari parameter konstruktor. Membuat objek mhs1 dari kelas Mahasiswa dengan memberikan nilai-nilai spesifik untuk setiap atribut. Menampilkan informasi mahasiswa dengan mencetak nilai-nilai atribut dari objek mhs1. Hasil output program akan menampilkan informasi seperti nama, kelas, program studi, fakultas, tempat tinggal, dan asal mahasiswa yang telah diinisialisasi sebelumnya.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- Bootstrap JavaScript dari CDN (jika diperlukan) -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shCzFVn2KVrFIv5+9F1qgycuLv2+8pDTEtF83" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>
